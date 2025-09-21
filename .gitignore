@@ -137,3 +137,33 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+
+# Archivos de sistema (Mac / Windows)
+.DS_Store
+Thumbs.db
+
+# Logs de nodos locales (Hardhat, Ganache)
+hardhat-network.log
+ganache.log
+
+# Deployments de Ignition (ignora todos excepto README)
+ignition/deployments/*
+!ignition/deployments/README.md
+
+# Scripts temporales (desarrollo local)
+scripts/local-*.ts
