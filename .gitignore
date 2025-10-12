@@ -145,6 +145,7 @@ vite.config.ts.timestamp-*
 # TypeChain files
 /typechain
 /typechain-types
+/types
 
 # solidity-coverage files
 /coverage
