@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Raulinho-A/petcare-token#readme",
   "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.0.3",
     "@nomicfoundation/hardhat-ignition": "^3.0.3",
     "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^3.0.0",
     "@types/chai": "^4.3.20",
@@ -29,11 +30,15 @@
     "forge-std": "github:foundry-rs/forge-std#v1.9.4",
     "hardhat": "^3.0.6",
     "mocha": "^11.7.2",
+    "tsx": "^4.20.6",
     "typescript": "~5.8.0"
   },
   "type": "module",
   "dependencies": {
     "@openzeppelin/contracts": "^5.4.0",
     "dotenv": "^17.2.2"
+  },
+  "directories": {
+    "test": "test"
   }
 }
